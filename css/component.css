@@ -44,4 +44,10 @@
 
 .footer {
 	text-align: center;
+	color: #ffffff;
+	font-size: .8em;
+}
+
+.description {
+  color: #ffffff;
 }
