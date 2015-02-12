@@ -53,7 +53,32 @@ p.ref {
 	max-width: 900px;
 	font-size: 15px;
 	line-height: 200%;
+
 }
+
+
+
+/* unvisited link */
+a:link {
+    color: #8fe0b5;
+}
+
+/* visited link */
+a:visited {
+    color: #8fe0b5;
+}
+
+/* mouse over link */
+a:hover {
+    color: #82bf9e;
+}
+
+/* selected link */
+a:active {
+    color: #8fe0b5;
+}
+
+
 
 .codrops-header h1 {
 	margin: 0;
