@@ -41,16 +41,18 @@ section {
 }
 
 p.ref {
-	text-align: center;
+	text-align: left;
 	padding: 2em 1em;
 }
 
-/* Header */
+/* !!!! Header: styling for the parapraphs !!! */
 .codrops-header {
 	margin: 0 auto;
 	padding: 2em;
-	text-align: center;
+	text-align: left;
 	max-width: 900px;
+	font-size: 15px;
+	line-height: 200%;
 }
 
 .codrops-header h1 {
