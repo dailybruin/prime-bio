@@ -1,17 +1,13 @@
-* {
-	margin: 0;
-	padding: 0;
-}
+
 
 body {
 	background: #222;
-	font-family: Georgia, serif;
 	color: #fff;
 	font-size: 14px;
 }
 
 a {
-	color: #ffffcc;
+	color: #4A7875;
 	text-decoration: none;
 	-webkit-transition: 0.5s;
 	-moz-transition: 0.5s;
@@ -21,7 +17,7 @@ a {
 }
 	a:hover,
 	a.selected {
-		color: #ffcc00;
+		color: #4A7875;
 	}
 
 h1,h2,h4,h5,h6 {
@@ -52,6 +48,8 @@ h1,h2,h4,h5,h6 {
 		#dates {
 			width: 800px;
 			height: 60px;
+			margin: 0px;
+			padding:0px;
 			overflow: hidden;
 		}
 			#dates li {
@@ -108,13 +106,15 @@ h1,h2,h4,h5,h6 {
 				    transform: scale(0.7,0.7);
 				}
 				#issues li h1 {
-					color: #ffcc00;
+					color: #249599;
 					font-size: 48px;
 					margin: 20px 0;
 					text-shadow: #000 1px 1px 2px;
 				}
 				#issues li p {
-					font-size: 14px;
+					color:  #ffffff;
+					font-style: italic;
+					font-size: 16px;
 					margin-right: 70px;
 					font-weight: normal;
 					line-height: 22px;
@@ -137,6 +137,10 @@ h1,h2,h4,h5,h6 {
 		        background: url('../images/grad_right.png') repeat-y;
 			}
 		
+
+		#right-arrow {
+
+		}
 		#next,
 		#prev {
 			position: absolute;
