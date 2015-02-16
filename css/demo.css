@@ -127,6 +127,13 @@ a:hover {
 a:active {
     color: #8fe0b5;
 }
+div#linkToPrime{
+	background-color: rgba(0,0,0,0.2);
+    font-size: 0.8em;
+    margin:5px;
+	padding: 4px 8px;
+    float: left;
+}
 
 
 
