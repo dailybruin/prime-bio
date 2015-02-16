@@ -163,3 +163,18 @@ h1,h2,h4,h5,h6 {
 				#prev.disabled {
 					opacity: 0.2;
 				}
+
+.blurb{
+	padding-left: 6px;
+	float: left;
+	border: 3px solid #4A7875;
+	width: 250px;
+	border-radius: 3px;
+	margin: 15px 15px;
+	padding: 12px 12px;
+	text-align: center;
+}
+
+.blurb h1{
+	font-size: 1.7em;
+}
