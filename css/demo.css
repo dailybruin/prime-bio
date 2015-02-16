@@ -8,10 +8,10 @@
 		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
 		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
 }
-
+/*
 *#container, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 .clearfix:before, .clearfix:after { content: ''; display: table; }
-.clearfix:after { clear: both; }
+.clearfix:after { clear: both; } */
 
 body {
 	background: #fff;
@@ -44,6 +44,52 @@ p.ref {
 	text-align: left;
 	padding: 2em 1em;
 }
+
+/* Photo Gallery. Used gallery from 
+http://graphics.dailybruin.com/prime/winter-2014/coming-up-for-air/ 
+as reference */
+#photo-gallery {
+	background-color: #4A7875;
+	color: #fff;
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	padding: 15px 15px;
+	text-align: center;
+	width: 240px;
+}
+	#photo-gallery p {
+		margin: 5px;
+	}
+	#gallery-title {
+		font-size: 22px;
+		font-style: bold;
+		text-align: center;
+	}
+	div.gallery-img {
+		float: left;
+		margin: 0.6em;
+	}
+		div.gallery-img div {
+			overflow: hidden;
+			opacity: 0.9;
+			margin-bottom: 4px;
+			width: 100px;
+			height: 100px;
+		}
+			div.gallery-img div:hover {
+				opacity: 1;
+			}
+		.gallery-img span {
+			font-family: "Roboto", Helvetica, Arial, sans-serif;
+			font-size: 0.7em;
+		}
+	#gallery-caption {
+		clear: both;
+		font-size: 10px;
+		text-align: center; 
+	}
+	
 
 /* !!!! Header: styling for the parapraphs !!! */
 .codrops-header {
