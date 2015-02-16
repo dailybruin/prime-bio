@@ -171,10 +171,17 @@ h1,h2,h4,h5,h6 {
 	width: 250px;
 	border-radius: 3px;
 	margin: 15px 15px;
+	margin-right: 28px;
 	padding: 12px 12px;
-	text-align: center;
+	padding-left: 19px;
+	text-align: left;
+	line-height:20px;
 }
 
 .blurb h1{
-	font-size: 1.7em;
+	font-size: 1.4em;
+}
+
+.blurb div{
+	line-height: px;
 }
