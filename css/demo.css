@@ -80,10 +80,7 @@ as reference */
 			div.gallery-img div:hover {
 				opacity: 1;
 			}
-		.gallery-img span {
-			font-family: "Roboto", Helvetica, Arial, sans-serif;
-			font-size: 0.7em;
-		}
+
 	#gallery-caption {
 		clear: both;
 		font-size: 10px;
