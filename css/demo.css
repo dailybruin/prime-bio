@@ -56,7 +56,7 @@ as reference */
 	margin-bottom: 15px;
 	padding: 15px 15px;
 	text-align: center;
-	width: 240px;
+	width: 200px;
 }
 	#photo-gallery p {
 		margin: 5px;
@@ -74,8 +74,8 @@ as reference */
 			overflow: hidden;
 			opacity: 0.9;
 			margin-bottom: 4px;
-			width: 100px;
-			height: 100px;
+			width: 80px;
+			height: 80px;
 		}
 			div.gallery-img div:hover {
 				opacity: 1;
@@ -83,7 +83,7 @@ as reference */
 
 	#gallery-caption {
 		clear: both;
-		font-size: 10px;
+		font-size: 8px;
 		text-align: center; 
 	}
 	

@@ -27,8 +27,8 @@ body:after {
 
 .lightbox .lb-image {
   display: block;
-  /*height: auto;*/
-  height: 50%;
+  height: auto;
+  /*height: 50%;*/
   max-width: inherit;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
