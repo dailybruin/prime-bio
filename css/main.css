@@ -1,0 +1,227 @@
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.demo-1 .large-header {
+	background-image: url('../img/web.biohacks.court.6-1.jpg');
+}
+
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 40%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	text-transform: uppercase;
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+	font-weight: 600;
+
+}
+
+.author {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	font-weight: bold;
+	text-align: center;
+	top: 65%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.footer {
+	text-align: center;
+	color: #ffffff;
+	font-size: .8em;
+}
+
+
+body {
+	background: #000000;
+	color: #ffffff
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.25;
+	font-family: 'Raleway', Calibri, Arial, sans-serif;
+}
+
+h1 {
+	margin: 0;
+	font-size: 4.5em;
+	line-height: 1;
+	font-weight: 200;
+}
+
+a, button {
+	outline: none;
+}
+
+a {
+	color: #566473;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #34495e;
+}
+
+section {
+	padding: 1em;
+	text-align: center;
+}
+
+p.ref {
+	text-align: left;
+	padding: 2em 1em;
+}
+
+p {
+	color: ;
+}
+
+/* Article Section*/
+.article {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: left;
+	max-width: 900px;
+	font-size: 15px;
+	line-height: 200%;
+
+}
+
+.author{
+	text-align: center;
+	color: #fff;
+}
+
+.description {
+  color: #ffffff;
+
+}
+
+/* Blurbs */
+.blurb{
+	padding-left: 6px;
+	float: left;
+	border: 3px solid #4A7875;
+	width: 250px;
+	border-radius: 3px;
+	margin: 15px 15px;
+	margin-right: 28px;
+	padding: 12px 12px;
+	padding-left: 19px;
+	text-align: left;
+	line-height:20px;
+}
+
+.blurb h1{
+	font-size: 1.4em;
+}
+
+.blurb div{
+	line-height: px;
+}
+
+/* Photo Gallery. Used gallery from 
+http://graphics.dailybruin.com/prime/winter-2014/coming-up-for-air/ 
+as reference */
+#photo-gallery {
+	background-color: #4A7875;
+	color: #fff;
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	padding: 15px 15px;
+	text-align: center;
+	width: 200px;
+}
+	#photo-gallery p {
+		margin: 5px;
+	}
+	#gallery-title {
+		font-size: 22px;
+		font-style: bold;
+		text-align: center;
+	}
+	div.gallery-img {
+		float: left;
+		margin: 0.6em;
+	}
+		div.gallery-img div {
+			overflow: hidden;
+			opacity: 0.9;
+			margin-bottom: 4px;
+			width: 80px;
+			height: 80px;
+		}
+			div.gallery-img div:hover {
+				opacity: 1;
+			}
+
+	#gallery-caption {
+		clear: both;
+		font-size: 8px;
+		text-align: center; 
+	}
+	
+
+/* !!!! Header: styling for the parapraphs !!! */
+.codrops-header {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: left;
+	max-width: 900px;
+	font-size: 15px;
+	line-height: 200%;
+
+}
+
+.author{
+	text-align: center;
+	color: #fff;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #8fe0b5;
+}
+
+/* visited link */
+a:visited {
+    color: #8fe0b5;
+}
+
+/* mouse over link */
+a:hover {
+    color: #249599;
+}
+
+/* selected link */
+a:active {
+    color: #8fe0b5;
+}
+div#linkToPrime{
+	background-color: rgba(0,0,0,0.2);
+    font-size: 0.8em;
+    margin:5px;
+	padding: 4px 8px;
+    float: left;
+}
