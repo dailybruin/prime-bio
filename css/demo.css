@@ -99,6 +99,16 @@ as reference */
 
 }
 
+/* Article Section*/
+.article {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: left;
+	max-width: 900px;
+	font-size: 15px;
+	line-height: 200%;
+
+
 .author{
 	text-align: center;
 	color: #fff;
