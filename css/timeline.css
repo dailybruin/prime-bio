@@ -4,7 +4,7 @@ body {
 }
 
 a {
-	color: #80d3b6;
+	color: #4A7875;
 	text-decoration: none;
 	-webkit-transition: 0.5s;
 	-moz-transition: 0.5s;
@@ -12,11 +12,11 @@ a {
 	-ms-transition: 0.5s;
 	transition: 0.5s;
 }
-/*	a:hover,
+	a:hover,
 	a.selected {
-		color: #ffcc00;
+		color: #d3b680;
 	}
-*/
+
 h1,h2,h4,h5,h6 {
 	text-align: center;
 	color: #ccc;
@@ -103,7 +103,7 @@ h1,h2,h4,h5,h6 {
 				    transform: scale(0.7,0.7);
 				}
 				#issues li h1 {
-					color: #4A7875;
+					color: #2a6679;
 					font-size: 48px;
 					margin: 20px 0;
 					text-shadow: #000 1px 1px 2px;
