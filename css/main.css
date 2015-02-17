@@ -72,13 +72,26 @@ a, button {
 	outline: none;
 }
 
-a {
-	color: #566473;
+a:link {
+	color: #80d3b6;
 	text-decoration: none;
 }
 
+/* visited link */
+a:visited {
+    color: #8fe0b5;
+}
+
 a:hover, a:focus {
+	color: #d3b680;
+}
+/**a:hover, a:focus {
 	color: #34495e;
+}*/
+
+/* selected link */
+a:active {
+    color: #d3b680;
 }
 
 section {
@@ -120,7 +133,7 @@ p {
 .blurb{
 	padding-left: 6px;
 	float: left;
-	border: 3px solid #4A7875;
+	border: 3px solid #2a6d79;
 	width: 250px;
 	border-radius: 3px;
 	margin: 15px 15px;
@@ -133,18 +146,16 @@ p {
 
 .blurb h1{
 	font-size: 1.4em;
+	color: #d3b680;
 }
 
-.blurb div{
-	line-height: px;
-}
 
 /* Photo Gallery. Used gallery from 
 http://graphics.dailybruin.com/prime/winter-2014/coming-up-for-air/ 
 as reference */
 #photo-gallery {
-	background-color: #4A7875;
-	color: #fff;
+	background-color: #2a6d79;
+	color: #ffffff;
 	float: right;
 	margin-left: 15px;
 	margin-bottom: 15px;
@@ -199,25 +210,6 @@ as reference */
 }
 
 
-/* unvisited link */
-a:link {
-    color: #8fe0b5;
-}
-
-/* visited link */
-a:visited {
-    color: #8fe0b5;
-}
-
-/* mouse over link */
-a:hover {
-    color: #249599;
-}
-
-/* selected link */
-a:active {
-    color: #8fe0b5;
-}
 div#linkToPrime{
 	background-color: rgba(0,0,0,0.2);
     font-size: 0.8em;
